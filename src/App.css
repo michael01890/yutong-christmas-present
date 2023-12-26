@@ -32,7 +32,7 @@
   z-index: 10; /* Ensure it's on top of other elements */
   background: none;
   border: none;
-  font-size: 24px; /* Adjust as needed */
+  font-size: 24px; 
   cursor: pointer;
   outline: none; /* Remove outline if it's focused */
 }
