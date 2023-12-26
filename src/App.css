@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+.frame {
+  position: absolute; /* Align frames on top of each other */
+  top: 0;
+  left: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.frame.active {
+  display: block; /* Only the active frame is displayed */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.animation-container {
+  position: relative; /* This is required for absolute positioning of children */
+  width: 500px; /* Set this to the width of your frames */
+  height: 500px; /* Set this to the height of your frames */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* If you decide to add permanent text on the letter frame */
+.letter-text {
+  position: absolute;
+  top: 50%; /* Center the text vertically */
+  left: 50%; /* Center the text horizontally */
+  transform: translate(-50%, -50%); /* Align the center of the text with the center of its container */
+  color: rgb(0, 0, 0); /* Choose a text color that stands out */
+  /* Any other styling you want for the text */
 }
 
-.App-link {
-  color: #61dafb;
+
+.next-button, .mute-button {
+  position: absolute; /* Position the button absolutely relative to the nearest positioned ancestor */
+  top: 10px; /* Distance from the top of the animation container */
+  right: 150px; /* Distance from the right of the animation container */
+  z-index: 10; /* Ensure it's on top of other elements */
+  background: none;
+  border: none;
+  font-size: 24px; /* Adjust as needed */
+  cursor: pointer;
+  outline: none; /* Remove outline if it's focused */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.next-button {
+  right: 110px;
+}
+
+.mute-button.muted::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  width: 100%;
+  height: 2px; /* This will make it look like a line going through */
+}
+
+.widget-container {
+  position: absolute;
+  bottom: 10px;
+  left: 50px; 
+  cursor: pointer;
+  top: 240px;
+  z-index: 10; 
+}
+
+.widget-container img {
+  width: 50px; 
+  height: auto; 
 }
