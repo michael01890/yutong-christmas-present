@@ -19,6 +19,7 @@ import reindeer from './Widgets/reindeer.png';
 import mailboxSound from './Sounds/mailbox.mp3';
 import firstlove from './Sounds/firstlove.mp3';
 import hawaii from './Sounds/hawaii.mp3';
+import mistletoe from './Sounds/mistletoe.mp3';
 
 
 const messages = [
@@ -49,7 +50,7 @@ const messages = [
 ];
 
 
-const playlist = [firstlove, hawaii];
+const playlist = [firstlove, hawaii, mistletoe];
 
 function App() {
   const [currentFrame, setCurrentFrame] = useState(0);
