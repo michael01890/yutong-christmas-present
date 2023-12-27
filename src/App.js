@@ -43,10 +43,8 @@ const messages = [
   " Here are some flowers for u :3 i wuv u  -----> 🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹🌹",
   "What do you call Santa when he stops moving? Santa Pause",
   "You know, that's not a candy cane in my pocket… I'm just happy to see you :3",
-  "Merry Christmas babyyy <3 I love youuu",
-  "", 
+  "Merry Christmas babyyy <3 I love youuu", 
 
-  // Add more messages here
 ];
 
 
