@@ -4,7 +4,7 @@ import './App.css';
 // Import your frame images
 import animation1 from './Frames/animation1.png';
 import animation2 from './Frames/animation2.png';
-import animation3 from './Frames/animation3.png';
+import animation3 from './Frames/animation3.png
 import animation4 from './Frames/animation4.png';
 import mailboxOpening from './Frames/mailbox.png'; // This should be the mailbox image.
 import letterFrame from './Frames/letter.png'; // This should be the letter image.
