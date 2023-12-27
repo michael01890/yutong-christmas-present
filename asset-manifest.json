@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.7f7eb499.css",
-    "main.js": "/static/js/main.1a2c0f33.js",
-    "static/js/787.8f9a1968.chunk.js": "/static/js/787.8f9a1968.chunk.js",
-    "static/media/firstlove.mp3": "/static/media/firstlove.72f5853d38655c610495.mp3",
-    "static/media/hawaii.mp3": "/static/media/hawaii.1054e46af352ba5eafec.mp3",
-    "static/media/mailbox.mp3": "/static/media/mailbox.abc49502fd6f46a55b20.mp3",
-    "static/media/animation3.png": "/static/media/animation3.fb68e16f91112022d3ca.png",
-    "static/media/animation4.png": "/static/media/animation4.6f49f6785f1d8791ad78.png",
-    "static/media/animation1.png": "/static/media/animation1.fce4f24b7de36f5dea56.png",
-    "static/media/animation2.png": "/static/media/animation2.73d698221343a8c0858c.png",
-    "static/media/mailbox.png": "/static/media/mailbox.8acf6b2aafcd3818257f.png",
-    "index.html": "/index.html",
-    "main.7f7eb499.css.map": "/static/css/main.7f7eb499.css.map",
-    "main.1a2c0f33.js.map": "/static/js/main.1a2c0f33.js.map",
-    "787.8f9a1968.chunk.js.map": "/static/js/787.8f9a1968.chunk.js.map"
+    "main.css": "/yutong-christmas-present/static/css/main.7f7eb499.css",
+    "main.js": "/yutong-christmas-present/static/js/main.630c35ae.js",
+    "static/js/787.8f9a1968.chunk.js": "/yutong-christmas-present/static/js/787.8f9a1968.chunk.js",
+    "static/media/firstlove.mp3": "/yutong-christmas-present/static/media/firstlove.72f5853d38655c610495.mp3",
+    "static/media/hawaii.mp3": "/yutong-christmas-present/static/media/hawaii.1054e46af352ba5eafec.mp3",
+    "static/media/mailbox.mp3": "/yutong-christmas-present/static/media/mailbox.abc49502fd6f46a55b20.mp3",
+    "static/media/animation3.png": "/yutong-christmas-present/static/media/animation3.fb68e16f91112022d3ca.png",
+    "static/media/animation4.png": "/yutong-christmas-present/static/media/animation4.6f49f6785f1d8791ad78.png",
+    "static/media/animation1.png": "/yutong-christmas-present/static/media/animation1.fce4f24b7de36f5dea56.png",
+    "static/media/animation2.png": "/yutong-christmas-present/static/media/animation2.73d698221343a8c0858c.png",
+    "static/media/mailbox.png": "/yutong-christmas-present/static/media/mailbox.8acf6b2aafcd3818257f.png",
+    "index.html": "/yutong-christmas-present/index.html",
+    "main.7f7eb499.css.map": "/yutong-christmas-present/static/css/main.7f7eb499.css.map",
+    "main.630c35ae.js.map": "/yutong-christmas-present/static/js/main.630c35ae.js.map",
+    "787.8f9a1968.chunk.js.map": "/yutong-christmas-present/static/js/787.8f9a1968.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7f7eb499.css",
-    "static/js/main.1a2c0f33.js"
+    "static/js/main.630c35ae.js"
   ]
 }
