@@ -201,7 +201,7 @@ function App() {
         <img src={nextSong} alt="Next Song" />
       </button>
       <button className={`mute-button ${isMuted ? 'muted' : ''}`} onClick={toggleMute}>
-        <img src={isMuted ? play : mute} alt="Mute/Unmute" />
+        <img src={isMuted ? mute : play} alt="Mute/Unmute" />
       </button>
 
       {!displayLetter && (
